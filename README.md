@@ -1,7 +1,7 @@
 # TypeScript SQL-like Query Engine
 
 This project is a simple SQL-like query engine written in TypeScript. It demonstrates how to parse and execute basic SQL queries (SELECT, WHERE, ORDER BY) on an in-memory JavaScript object array, with logging and testability in mind.
-Do not use this for real, it's merely a fun but inefficient and inextensive engine. For fun.
+Do not use this for real, it's merely a fun but inefficient and inextensive engine that I wanted to slowly continue and explore from a fun open ended interview question I got.s
 
 ## Features
 
