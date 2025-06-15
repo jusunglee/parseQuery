@@ -1,0 +1,26 @@
+{
+  "name": "typescript-hello-world",
+  "version": "1.0.0",
+  "description": "A simple TypeScript Hello World project",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "tsc && node dist/main.js",
+    "format": "prettier --write \"**/*.{ts,js,json}\""
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.1",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3",
+    "yargs": "^17.7.2",
+    "@types/yargs": "^17.0.32"
+  },
+  "dependencies": {
+    "@types/yargs": "^17.0.33",
+    "assert": "^2.1.0",
+    "winston": "^3.17.0",
+    "yargs": "^18.0.0"
+  }
+}
